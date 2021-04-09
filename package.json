@@ -1,0 +1,25 @@
+{
+  "name": "do-an-sever",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "^4.0.3",
+    "express": "^4.17.1",
+    "mqtt": "^4.2.6",
+    "nodemailer": "^6.5.0",
+    "serialport": "^9.0.7",
+    "sqlite3": "^5.0.2",
+    "utf-8-validate": "^5.0.4",
+    "ws": "^7.4.4"
+  }
+}

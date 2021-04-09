@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>do-an-GUI</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
+    <link rel="stylesheet" href="assets/css/Data-Table-1.css">
+    <link rel="stylesheet" href="assets/css/Data-Table.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/sticky-dark-top-nav-with-dropdown.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/tabs-Menu.css">
+</head>
+
+<body style="border-top-style: solid;border-right-width: 1px;border-right-style: solid;border-bottom-width: 1px;border-left: 0px solid rgb(124,129,135) ;" onload="managerOnload()">
+    <ul class="nav nav-pills text-monospace" style="background: #2a2d3d;">
+        <li class="nav-item"><a class="nav-link" href="index.html">Giám sát thiết bị</a></li>
+        <li class="nav-item"><a class="nav-link active" href="manager.html">Quản lý dữ liệu thiết bị</a></li>
+        <li class="nav-item"><a class="nav-link" href="setting.html">Cài đặt</a></li>
+    </ul>
+    <h1 class="text-center" style="margin-top: 25px;" href="manager.html">Dữ liệu thiết bị</h1>
+    <div class="table-responsive" id="manager-table" style="border-top: 1px solid rgb(185,195,205);border-right-width: 1px;border-right-style: solid;border-bottom-width: 1px;border-bottom-style: solid;border-left: 1px solid rgb(33, 37, 41);width: 98%;margin: 0;margin-left: 1%;max-height: 268px;min-height: 0px;height: 280px;">
+        <table class="table table-striped table-hover table-sm">
+            <thead>
+                <tr style="border-width: 0px;box-shadow: 0px 0px 7px 0px rgb(71,80,88);">
+                    <th>IDs</th>
+                    <th>Tên thiết bị</th>
+                    <th>Tổng thời gian hoạt động</th>
+                    <th>Chu kỳ bảo dưỡng thiết bị</th>
+                </tr>
+            </thead>
+            <tbody id="manager-table-body"></tbody>
+        </table>
+    </div>
+    <div id="div-add-device" style="width: 98%;height: none;margin-left: 1%;margin-top: 14px;border-width: 1px;border-style: solid;">
+        <p style="margin-bottom: -5px;">Thêm thiết bị mới</p>
+        <div class="table-responsive" id="table-add-device" style="width: 100%;margin: 0;margin-left: 0%;max-height: 268px;min-height: 0px;height: 70%;margin-top: 12px;border-top: 1px solid rgb(185,195,205);border-right-width: 1px;border-right-style: none;border-bottom-width: 1px;border-bottom-style: none;border-left: 1px none rgb(33, 37, 41);">
+            <table class="table table-striped table-hover table-sm">
+                <thead>
+                    <tr style="border-width: 0px;box-shadow: 0px 0px 7px 0px rgb(71,80,88);">
+                        <th>IDs</th>
+                        <th>Tên thiết bị</th>
+                        <th>Chu kỳ bảo dưỡng thiết bị</th>
+                    </tr>
+                </thead>
+                <tbody id="manager-table-body-1">
+                    <tr>
+                        <td><input type="text" id="input-add-device-id" style="width: 100%;padding: 0;height: 100%;border-style: none;border-color: rgba(0,0,0,0);"></td>
+                        <td><input type="text" id="input-add-device-name" style="width: 100%;padding: 0;height: 100%;border-style: none;border-color: rgba(0,0,0,0);"></td>
+                        <td><input type="text" id="input-add-device-period" style="width: 100%;padding: 0;height: 100%;border-style: none;border-color: rgba(0,0,0,0);"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div><button class="btn btn-primary" id="button-add-device" type="button" style="text-align: right;margin-left: 3%;margin-right: 0px;margin-bottom: 11px;" alignment="right">Thêm</button>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script src="assets/js/classes.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/untitled.js"></script>
+</body>
+
+</html>

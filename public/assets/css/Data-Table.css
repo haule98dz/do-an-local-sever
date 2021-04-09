@@ -1,0 +1,42 @@
+#example {
+  margin-bottom: 0;
+}
+
+th {
+  border-style: none;
+  border-top-style: none;
+  border-top-color: rgb(0,0,0);
+  border-right: 1px solid rgb(184,192,200) ;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(28,29,31);
+  border-left-style: none;
+}
+
+td {
+  border-style: none;
+  border-top-style: none;
+  border-top-color: rgba(222,226,230,0.96);
+  border-right: 1px solid rgb(186,202,218) ;
+  border-bottom: 2px solid rgb(138,151,164) ;
+  border-left-width: 1px;
+  border-left-color: rgb(153,170,187);
+}
+
+.nav-link {
+  margin-bottom: -1px ;
+  margin-left: 0px;
+  padding: 9px 15px;
+  color: #ffffff;
+  border-width: 0px;
+  border-right: 1px solid #000000 ;
+  border-left: 1px solid rgb(255,255,255) ;
+}
+
+.nav-item {
+  margin-left: 0px;
+  padding: 0px;
+  border-right: 1px solid rgb(33,45,58) ;
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+

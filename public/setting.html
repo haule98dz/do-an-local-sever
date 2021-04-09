@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>do-an-GUI</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
+    <link rel="stylesheet" href="assets/css/Data-Table-1.css">
+    <link rel="stylesheet" href="assets/css/Data-Table.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/sticky-dark-top-nav-with-dropdown.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/tabs-Menu.css">
+</head>
+
+<body style="border-top-style: solid;border-right-width: 1px;border-right-style: solid;border-bottom-width: 1px;border-left: 0px solid rgb(124,129,135) ;" onload="settingOnload()">
+    <ul class="nav nav-pills text-monospace" style="background: #2a2d3d;">
+        <li class="nav-item"><a class="nav-link" href="index.html">Giám sát thiết bị</a></li>
+        <li class="nav-item"><a class="nav-link" href="manager.html">Quản lý dữ liệu thiết bị</a></li>
+        <li class="nav-item"><a class="nav-link active" href="setting.html">Cài đặt</a></li>
+    </ul>
+    <div style="height: 120px;margin: -1px;margin-top: 47px;border: 1px solid rgb(126,131,136);width: 90%;margin-left: 5%;">
+        <p style="margin-left: 72px;font-size: 20px;">Kết nối Serial</p><select id="serial-ports" style="margin-right: 0px;margin-left: 86px;margin-top: 2px;height: 36px;font-size: 17px;min-width: 130px;"></select><button class="btn btn-link" id="button-refresh-ports-list" type="button" style="margin-left: 12px;margin-top: -3px;background: #d5d5d5;border-style: none;border-right-style: none;box-shadow: 0px 0px 3px 1px;">Refresh</button><button class="btn btn-primary" id="button-serial-connect" type="button" style="margin-left: 13px;">Kết nối</button>
+        <p id="text-serial-status" style="margin-top: -35px;margin-right: 0px;margin-left: 445px;font-size: 16px;">&nbsp;</p>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script src="assets/js/classes.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/untitled.js"></script>
+</body>
+
+</html>
